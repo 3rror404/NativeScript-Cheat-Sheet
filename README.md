@@ -11,6 +11,7 @@ Often used. Rarely remembered.
 * [Visual](#visual)
  * [iOS Blurred background modal](#ios-blurred-background-modal)
  * [iOS Drop Shadow](#ios-drop-shadow)
+ * [iOS TabView icons are grey when deselected](#ios-tabview-icons-are-grey-when-deselected)
 
 ---
 
