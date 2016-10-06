@@ -23,7 +23,20 @@ Update `tns-core-modules` and `tns-core-modules-widgets`
 $ tns plugin remove tns-core-modules
 $ tns platform remove android
 $ tns platform remove ios
+```
+Current release version
+```
 $ tns plugin add tns-core-modules
+```
+@next version
+```
+$ tns plugin add tns-core-modules@next
+```
+Specific version
+```
+$ tns plugin add tns-core-modules@2.4.0-2016-10-05-4321
+```
+```
 $ tns platform add android
 $ tns platform add ios
 ```
