@@ -89,3 +89,7 @@ if (Platform.isIOS) {
 }
 ```
 
+iOS TabView icons are grey when deselected
+---
+
+See this issue: https://github.com/NativeScript/nativescript-angular/issues/395#issuecomment-239472063
