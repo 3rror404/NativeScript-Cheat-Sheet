@@ -3,7 +3,7 @@ Often used. Rarely remembered.
 
 ---
 
-### Update `tns-core-modules` and `tns-core-modules-widgets`
+## Update `tns-core-modules` and `tns-core-modules-widgets`
 
 ```
 $ tns plugin remove tns-core-modules
