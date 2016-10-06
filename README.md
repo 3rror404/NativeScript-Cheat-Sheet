@@ -12,6 +12,7 @@ Often used. Rarely remembered.
  * [iOS Blurred background modal](#ios-blurred-background-modal)
  * [iOS Drop Shadow](#ios-drop-shadow)
  * [iOS TabView icons are grey when deselected](#ios-tabview-icons-are-grey-when-deselected)
+ * [iOS Remove left inset from ListView Cells](#ios-remove-left-inset-from-listview-cells)
 
 ---
 
@@ -104,4 +105,19 @@ var originalRenderedImage = is.ios.imageWithRenderingMode(0);
 change to
 ```
 var originalRenderedImage = is.ios.imageWithRenderingMode(1);
+```
+
+iOS Remove left inset from ListView Cells
+---
+
+```
+var listViewModule = require("ui/list-view");
+
+if (Platform.isIOS) {
+    var listView = page.getViewById('listView');
+
+    listView.on(listViewModule.ListView.itemLoadingEvent, function (args) {
+        args.ios.separatorInset = UIEdgeInsetsZero;
+    });
+}
 ```
