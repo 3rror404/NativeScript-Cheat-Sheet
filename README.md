@@ -95,8 +95,8 @@ iOS TabView icons are grey when deselected
 
 See this issue: https://github.com/NativeScript/nativescript-angular/issues/395#issuecomment-239472063
 
-* navigate to node_modules/tns-core-modules/ui/tab-view
-* open tab-view.ios.js
+* navigate to `node_modules/tns-core-modules/ui/tab-view`
+* open `tab-view.ios.js`
 * at line 285 (as of tns-core-modules v2.4.0-2016-09-21-4189) find the following line
 ```
 var originalRenderedImage = is.ios.imageWithRenderingMode(0);
