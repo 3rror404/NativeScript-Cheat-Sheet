@@ -3,6 +3,17 @@ Often used. Rarely remembered.
 
 ---
 
+### Contents
+
+* [CLI](#cli)
+ * [Update `tns-core-modules` and `tns-core-modules-widgets`](#update-tns-core-modules-and-tns-core-modules-widgets)
+
+* [Visual](#visual)
+ * [iOS Blurred background modal](#ios-blurred-background-modal)
+ * [iOS Drop Shadow](#ios-drop-shadow)
+
+---
+
 # CLI
 
 Update `tns-core-modules` and `tns-core-modules-widgets`
