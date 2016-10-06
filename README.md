@@ -41,8 +41,9 @@ $ tns platform add android
 $ tns platform add ios
 ```
 
-Add signing identity to xcode project.
+**Don't forget!** - Add signing identity to xcode project.
 
+All in one - `tns plugin remove tns-core-modules && tns platform remove android && tns platform remove ios && tns plugin add tns-core-modules@next && tns platform add android && tns platform add ios`
 
 # Visual
 
