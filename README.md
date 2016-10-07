@@ -44,6 +44,7 @@ $ tns platform add ios
 ```
 
 **Don't forget!** - Add signing identity to xcode project.
+**Then** - [iOS TabView icons are grey when deselected](#ios-tabview-icons-are-grey-when-deselected)
 
 All in one - `tns plugin remove tns-core-modules && tns platform remove android && tns platform remove ios && tns plugin add tns-core-modules@next && tns platform add android && tns platform add ios`
 
