@@ -38,6 +38,7 @@ Specific version
 ```
 $ tns plugin add tns-core-modules@2.4.0-2016-10-05-4321
 ```
+Remove your _**node_modules**_, _**platforms**_ and _**hooks**_ folders.
 ```
 $ tns platform add android
 $ tns platform add ios
@@ -45,8 +46,6 @@ $ tns platform add ios
 
 **Don't forget!** - Add signing identity to xcode project.
 **Then** - [iOS TabView icons are grey when deselected](#ios-tabview-icons-are-grey-when-deselected)
-
-All in one - `tns plugin remove tns-core-modules && tns platform remove android && tns platform remove ios && tns plugin add tns-core-modules@next && tns platform add android && tns platform add ios`
 
 # Visual
 
