@@ -13,6 +13,7 @@ Often used. Rarely remembered.
  * [iOS Drop Shadow](#ios-drop-shadow)
  * [iOS TabView icons are grey when deselected](#ios-tabview-icons-are-grey-when-deselected)
  * [iOS Remove left inset from ListView Cells](#ios-remove-left-inset-from-listview-cells)
+ * [iOS Default Switch Styles](#ios-default-switch-styles)
 
 ---
 
@@ -119,5 +120,19 @@ if (Platform.isIOS) {
     listView.on(listViewModule.ListView.itemLoadingEvent, function (args) {
         args.ios.separatorInset = UIEdgeInsetsZero;
     });
+}
+```
+
+iOS Default Switch Styles
+---
+Switches inherit styles from the page CSS causing them to behave strangely. I haven't found a way to "reset" these styles back to default with CSS.
+
+```
+var switch = page.getViewById("switch");
+
+if (Platform.isIOS) {
+    switch.ios.tintColor = UIColor.greyColor;
+    switch.ios.onTintColor = UIColor.colorWithRedGreenBlueAlpha(0.36, 0.86, 0.40, 1.0); // Default green
+    switch.ios.thumbTintColor = UIColor.greyColor;
 }
 ```
