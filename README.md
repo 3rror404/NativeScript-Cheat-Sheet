@@ -19,6 +19,24 @@ Often used. Rarely remembered.
 
 # CLI
 
+Update NativeScript
+---
+
+```
+$ npm install -g nativescript
+```
+
+Check current version
+```
+$ tns --version
+```
+
+Update an existing application (Available after NS 2.4.0. Run in app root)
+
+```
+$ tns update
+```
+
 Update `tns-core-modules` and `tns-core-modules-widgets`
 ---
 
