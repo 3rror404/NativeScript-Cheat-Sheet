@@ -6,6 +6,7 @@ Often used. Rarely remembered.
 ### Contents
 
 * [CLI](#cli)
+ * [Update NativeScript](#update-nativescript)
  * [Update `tns-core-modules` and `tns-core-modules-widgets`](#update-tns-core-modules-and-tns-core-modules-widgets)
 
 * [Visual](#visual)
