@@ -17,7 +17,7 @@ Often used. Rarely remembered.
  * [iOS Default Switch Styles](#ios-default-switch-styles)
  
 * [Build](#build)
- * [Podfile.lock: No such file or directory - XCode error](#podfilelock-no-such-file-or-directory---xcode-error
+ * [Podfile.lock: No such file or directory - XCode error](#podfilelock-no-such-file-or-directory---xcode-error)
 
 ---
 
