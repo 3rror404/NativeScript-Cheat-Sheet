@@ -15,6 +15,9 @@ Often used. Rarely remembered.
  * [iOS TabView icons are grey when deselected](#ios-tabview-icons-are-grey-when-deselected)
  * [iOS Remove left inset from ListView Cells](#ios-remove-left-inset-from-listview-cells)
  * [iOS Default Switch Styles](#ios-default-switch-styles)
+ 
+* [Build](#build)
+ * [Podfile.lock: No such file or directory - XCode error](#Podfile.lock: No such file or directory - XCode error)
 
 ---
 
@@ -155,3 +158,9 @@ if (Platform.isIOS) {
     switch.ios.thumbTintColor = UIColor.greyColor;
 }
 ```
+
+# Build
+
+Podfile.lock: No such file or directory - XCode error
+---
+https://github.com/NativeScript/NativeScript/issues/3046
