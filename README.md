@@ -159,6 +159,24 @@ if (Platform.isIOS) {
 }
 ```
 
+# View manipulation
+
+Get view size and position
+---
+```
+var elBounds = el.ios.layer.bounds;
+var elWidth = elBounds.size.width;
+var elHeight = elBounds.size.height;
+
+var elFrame = el.ios.frame;
+var elX = elFrame.origin.x; // within parent
+var elY = elFrame.origin.y; // within parent
+
+var elPosition = el.getLocationInWindow();
+console.log(elPosition.x); // within window
+console.log(elPosition.y); // within window
+```
+
 # Build
 
 Podfile.lock: No such file or directory - XCode error
