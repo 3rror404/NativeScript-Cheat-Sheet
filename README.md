@@ -16,6 +16,9 @@ Often used. Rarely remembered.
  * [iOS Remove left inset from ListView Cells](#ios-remove-left-inset-from-listview-cells)
  * [iOS Default Switch Styles](#ios-default-switch-styles)
  
+* [View manipulation](#view-manipulation)
+ * [Get view size and position](#get-view-size-and-position)
+ 
 * [Build](#build)
  * [Podfile.lock: No such file or directory - XCode error](#podfilelock-no-such-file-or-directory---xcode-error)
 
