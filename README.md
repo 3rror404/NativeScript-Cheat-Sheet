@@ -33,6 +33,11 @@ Update NativeScript
 $ npm install -g nativescript
 ```
 
+Update to specific version
+```
+$ npm install -g nativescript@3.4.2
+```
+
 Check current version
 ```
 $ tns --version
