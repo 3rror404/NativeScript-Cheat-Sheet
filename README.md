@@ -197,4 +197,5 @@ https://github.com/NativeScript/NativeScript/issues/3046
 
 Edit, package and install plugin
 ---
+(Step 5 should be `tsc`)
 https://github.com/NativeScript/nativescript-imagepicker/issues/91#issuecomment-306189290
