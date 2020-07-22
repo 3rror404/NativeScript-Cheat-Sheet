@@ -22,6 +22,8 @@ Often used. Rarely remembered.
 * [Build](#build)
  * [Podfile.lock: No such file or directory - XCode error](#podfilelock-no-such-file-or-directory---xcode-error)
 
+* [Cutomise plugin](#cutomise-plugin)
+
 ---
 
 # CLI
@@ -190,3 +192,9 @@ console.log(elPosition.y); // within window
 Podfile.lock: No such file or directory - XCode error
 ---
 https://github.com/NativeScript/NativeScript/issues/3046
+
+# Cutomise plugin
+
+Edit, package and install plugin
+---
+https://github.com/NativeScript/nativescript-imagepicker/issues/91#issuecomment-306189290
